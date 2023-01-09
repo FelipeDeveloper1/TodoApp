@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(213, 230, 224);
+}
+
+.tabs_place {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.tabs_head {
+    display: flex;
+    height: 50px;
+    align-items: stretch;
+}
+
+.tabs_toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+    height: 50px;
+    background-color: wheat;
+    border: 1px solid black;
+}
+
+.tabs_toggle.active {
+    background-color: white;
+}
+
+.tabs_content {
+    display: none;
+    padding: 30px;
+}
+
+.tabs_content.active {
+    display: block;
+}

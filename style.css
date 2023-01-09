@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #181824;
+}
+
+
+/* tema claro */
+
+.dia {
+    height: 250px;
+    width: 100%;
+    background-image: url(img/bg-desktop-light.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+
+.sol {
+    width: 20px;
+    height: 20px;
+    background-image: url(img/icon-sun.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+
+
+/* tema escuro */
+
+.noite {
+    height: 250px;
+    background-image: url(img/bg-desktop-dark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+
+.lua {
+    width: 20px;
+    height: 20px;
+    background-image: url(img/icon-moon.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+
+.mode {
+    cursor: pointer;
+}
+
+
+/* estilo do conteudo do documento */
+
+.conteudo {
+    margin: auto;
+    width: 450px;
+    height: 500px;
+    padding-top: 60px;
+}
+
+.primeira_linha {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* estilo do input text */
+
+.texto {
+    width: 448px;
+    margin-top: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #2A2D42;
+    border: 1px solid #2A2D42;
+    text-align: center;
+    color: #9494a0;
+}
+
+
+/* formatação da posição das divs criadas */
+
+.notas {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+
+/* formatação do estilo das divs criadas */
+
+.criou {
+    display: flex;
+    width: 448px;
+    height: 58px;
+    background-color: #2A2D42;
+    border: 1px solid #383b55;
+    color: rgb(206, 201, 201);
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.criou>p {
+    color: #9494a0;
+    margin-left: 18px;
+}
+
+
+/* sinal de confirmação */
+
+.check {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: white;
+    margin-left: 18px;
+    cursor: pointer;
+}
+
+.checked {
+    background-color: #2A2D42;
+    background-image: url(img/icon-check.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+
+.tachado {
+    text-decoration: line-through;
+    background-color: #313348;
+}
+
+.local_info {
+    opacity: 0;
+    width: 448px;
+    height: 58px;
+    background-color: #2A2D42;
+    border: 1px solid #383b55;
+    color: #585e92;
+}
+
+.show {
+    display: flex;
+    align-items: center;
+    opacity: 1;
+    font-size: 11px;
+}
+
+.show>p {
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.info {
+    margin-left: 20px;
+}
+
+.clear {
+    margin-left: 50px;
+}
